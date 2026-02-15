@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Baskervville';
+    src: url(/assets/fonts/Baskervville-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: 'Baskervville';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.story {
+    max-width: 95ch;
+    padding: 4rem 1.5rem;
+    text-align: left;
+}
+
+.quote-format {
+    font-style: italic;
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: #000000;
+    border-left: 3px solid #d6d2c6;
+    padding-left: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.start-letter {
+    float: left;
+    font-size: 3.2rem;
+    line-height: 0.9;
+    margin: 0.1rem 0.6rem 0 0;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #2b1b12;
+}
+
+.newspaper {
+    margin: 3rem 0 1rem;
+    padding: 2rem 2rem 1.5rem;
+    background: #f6f1e6;
+    border: 1px solid #d8cbb3;
+    box-shadow: 0 12px 30px rgba(34, 24, 16, 0.12);
+}
+
+.newspaper-date {
+    margin: 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #5b4a37;
+}
+
+.newspaper-headline {
+    margin: 0.35rem 0 0.35rem;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #24180f;
+}
+
+.newspaper-byline {
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #3a2b1c;
+}
+
+.newspaper-body {
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 1px solid #d3c3a8;
+}
+
+.newspaper-body p {
+    margin: 0 0 1rem;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.newspaper-qa {
+    break-inside: avoid;
+}
+
+.newspaper-q,
+.newspaper-a {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
