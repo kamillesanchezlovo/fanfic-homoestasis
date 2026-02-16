@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Baskervville';
+    font-weight: 400;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -12,7 +13,7 @@ body {
 }
 
 .story {
-    max-width: 95ch;
+    max-width: 120ch;
     padding: 4rem 1.5rem;
     text-align: left;
 }
